@@ -1,0 +1,13 @@
+.DS_Store
+.ipynb_checkpoints
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.uv/
+.venv/
+
+__pycache__/
+
+*.py[cod]
+
+tdlog-database.db
