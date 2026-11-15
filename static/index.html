@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/app.js" defer></script></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche Wikipédia</title>
+</head>
+
+<body>
+    <h1>Recherche Wikipédia</h1>
+
+    <form id="search-form">
+        <label for="term">Mot à rechercher :</label>
+        <input id="term" name="term" type="text" required>
+        <button type="submit">Rechercher</button>
+    </form>
+
+    <p id="status" role="status"></p>
+
+    <ol id="results"></ol>
+
+    <section id="article" hidden>
+        <h2 id="article-title"></h2>
+        <pre id="article-text"></pre>
+        <button id="back" type="button">Retour aux résultats</button>
+    </section>
+</body>
+</html>
